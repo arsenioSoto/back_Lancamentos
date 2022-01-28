@@ -1,0 +1,51 @@
+
+Inicializar Algamoney: java -jar algamoney-soto-0.0.1-SNAPSHOT.jar --spring.datasource.username=root --spring.datasource.password=root --algamoney.origin-permitida=http://localhost:4200
+
+
+java -jar algamoney-api-1.0.0-SNAPSHOT.jar --spring.datasource.username=root --spring.datasource.password=root --algamoney.origin-permitida=http://localhost:4200
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+visual 10
+Product Key: YCFHQ9DWCYDKV88T2TMHG7BHP
+
+12
+
+MMVJ9-FKY74-W449Y-RB79G-8GJGJ
+
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+
+spring.datasource.url=jdbc:h2:file:~/test
+spring.datasource.username=root
+spring.datasource.password=
+spring.datasource.driver-class-name=org.h2.Driver
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+
+git remote add origin https://github.com/arsenioSoto/api_ordem_servico.git
+git branch -M main
+git push -u origin main
+
+spring.jpa.database=POSTGRESQL
+spring.datasource.url=jdbc:postgresql://localhost:5432/os?createDatabaseIfNotExist=true&UseSSL=false?useLegacyDatetimeCode=false&serverTimezone=UTC
+spring.datasource.username=
+spring.datasource.password=
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.hibernate.ddl-auto=create-drop
